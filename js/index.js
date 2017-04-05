@@ -1,5 +1,5 @@
 var settings = {
-	width:      1366,
+	width:      1000,
 	brightness: 18,
 	contrast:   8,
 	size:       8,
