@@ -9,15 +9,15 @@ html {
 	width: 100%;
 }
 
-*, *:before, *:after {
+/* *, *:before, *:after {
 	box-sizing: inherit;
-}
+} */
 
 body {
 	overflow-x:       hidden;
 	margin:           0;
 	padding:          0;
-	background-color: #000;
+	background-color: #fff;
 	font-family:      Tahoma,Verdana,Segoe,sans-serif;
 	font-size:        14px;
 	line-height:      18px;
@@ -147,8 +147,8 @@ section {
 	top:              0;
 	right:            0;
 	bottom:           0;
-	width:            640px;
-	height:           480px;
+	width:            100vw;
+	height:           100vh;
 	margin:           auto;
 	border:           20px solid #000;
 	background-color: #000;
