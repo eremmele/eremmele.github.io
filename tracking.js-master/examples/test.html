@@ -6,6 +6,15 @@
   <title>tracking.js - first tracking</title>
   <script src="../build/tracking-min.js"></script>
   <script src="tracking.js/build/data/eye.js"></script>
+
+  <style>
+  video, canvas {
+    margin-left: 230px;
+    margin-top: 120px;
+    position: absolute;
+  }
+  </style>
+  
 </head>
 
 <body>
@@ -30,7 +39,8 @@
     });
   }
 });
-  tracking.track('#video', objects);
+
+  tracking.track('#video', tracker, { camera: true });
   </script>
 </body>
 
