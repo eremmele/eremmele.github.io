@@ -12,9 +12,10 @@
 
   <style>
   video, canvas {
-    margin-left: 230px;
-    margin-top: 120px;
+    left: 50%;
     position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
   </style>
 </head>
@@ -22,8 +23,8 @@
 
   <div class="demo-frame">
     <div class="demo-container">
-      <video id="video" width="320" height="240" preload autoplay loop muted></video>
-      <canvas id="canvas" width="320" height="240"></canvas>
+      <video id="video" width="1280" height="720" preload autoplay loop muted></video>
+      <canvas id="canvas" width="1280" height="720"></canvas>
     </div>
   </div>
 
