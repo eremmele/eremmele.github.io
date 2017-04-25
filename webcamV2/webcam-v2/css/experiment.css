@@ -16,9 +16,10 @@
 
 canvas.scale {
     position: fixed;
-    border-radius: 5px;
-    bottom: 10px;
-    left: 10px;
+    /*border-radius: 5px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 canvas.mask {
