@@ -13,10 +13,10 @@ body {
     background: rgba(0,0,0,0.8);
     margin: 0 auto;
 
-    -webkit-transition: -webkit-transform 500ms;
-    -ms-transition: -ms-transform 500ms;
-    -o-transition: -o-transform 500ms;
-    transition: transform 500ms;
+    -webkit-transition: -webkit-transform 1000ms;
+    -ms-transition: -ms-transform 1000ms;
+    -o-transition: -o-transform 1000ms;
+    transition: transform 1000ms;
 }
 
 /*canvas.scale {
