@@ -1,3 +1,9 @@
+body {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+}
+
 .transforming-content {
     height: 200px;
     width: 200px;
@@ -14,16 +20,22 @@
     transition: transform 500ms;
 }
 
-canvas.scale {
+/*canvas.scale {
     position: fixed;
-    /*border-radius: 5px;*/
+    /*border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 
-canvas.mask {
+/*canvas.mask {
     margin: 0 auto;
     display: block;
     border-radius: 5px;
+}*/
+
+canvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

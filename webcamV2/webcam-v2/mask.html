@@ -6,16 +6,25 @@
     <title>identify</title>
     <link rel="stylesheet" href="../experiment-styles.css" />
     <link rel="stylesheet" href="css/experiment.css" />
+    <style>
+    video, canvas {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+     }
+    </style>
 </head>
-<body class="experiment">
+<body>
 
-<canvas width="640" height="480" class="mask"></canvas>
+<canvas width="858" height="480" class="mask"></canvas>
 
 <!-- Include the CCV image processing and face detection libraries -->
 <script src="js/ccv.js"></script>
 <script src="js/face.js"></script>
 
-    </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="js/experiment.js"></script>
 </body>
